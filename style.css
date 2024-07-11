@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color:lightgreen;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 450px;
+    font-family: Arial, sans-serif;
+}
+
+.todo-list{
+    background-color: white;
+    padding: 13px;
+    margin: 13px;
+    border-radius: 10px;
+    
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #c4bbbb;
+}
+
+button{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#add-button{
+    background-color:rgb(0, 166, 255);
+    color: white;
+    height: 27px;
+    width: 46px;
+}
+
+.clear-completed{
+    background-color:rgb(0, 166, 255);
+    height: 27px;
+    color: white;
+}
+
+
+.empty-list{
+    background-color: darkred;
+    height: 27px;
+    color: white;
+}
+
+.save-list{
+    background-color: lightgreen;
+    height: 27px;
+    color: white;
+}
